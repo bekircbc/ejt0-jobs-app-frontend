@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      setJobs((await axios.get(url)).data);
+      setJobs((await axios.get(backend_url)).data);
     })();
   }, []);
 
