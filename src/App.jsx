@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.scss";
 
-const url = "http://localhost:3021/jobs";
+const backend_url = "https://ejt0-jobs-app-backend.herokuapp.com/jobs";
 
 function App() {
   const [jobs, setJobs] = useState([]);
